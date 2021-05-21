@@ -1,7 +1,43 @@
- .welcome {
+ /* .main{
      display: flex;
-     justify-content: flex-start;
+     
+ } */
+ 
+ 
+ 
+ 
+ .welcome {
+    display: flex;
+    justify-content: flex-start;
     padding: 100px;
     padding-left: 150px;
     margin-right: 210px;
+  } 
+
+  .info {
+      display:flex;
+      justify-content: flex-start;
+      padding-left: 150px;
+      margin-left: 8%;
+      margin-top: 15%;
+  }
+
+  .content{
+      font-size: 40px;
+  }
+
+  .btn {
+    margin: 500px 0px;
+    padding: 10px;
+    font-size: 15px;
+    /* border: black solid 5px; */
+    background-color: aqua;
+    border-radius: 35%;
+  }
+
+  .link_btn a{
+    font-size: 40px;
+    margin: 100px 0px 50px 15px;
+    /* margin-left: 30px; */
+
   }
