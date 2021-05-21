@@ -1,12 +1,10 @@
 import Link from 'next/Link'
-
+import Header from '@/components/Header'
 
 export default function AboutPage() {
     return (
         <div>
-            <Link href='/'> 
-            <a>Home</a>
-            </Link>
+            <Header/>
 
             <h2>About</h2>
             <p>Hello, my name is Kenny and I am a full-stack developer who enjoys solving tough problems and breaking them down into easily programmable solutions. My previous job was in banking where I spent the last 5 years building trust with my clients and furthering my communication skills, which I am confident I can bring to any role.</p>

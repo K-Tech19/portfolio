@@ -1,23 +1,16 @@
 // import Layout from '../components/Layout'
 import Link from 'next/link'
-import Projects from 'pages/projects'
+import Header from '@/components/Header'
+
 
 
 export default function Home() {
   return (
       <div>
 
+       <Header />
         <h1>Kenny's Portfolio</h1>
 
-        <Link href='/about' >
-        <a> About </a>
-        
-        </Link>
-
-        <Link href='/projects' >
-        <a> Projects </a>
-        
-        </Link>
 
 
 
