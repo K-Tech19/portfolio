@@ -20,14 +20,15 @@ export default function Home() {
         </h1>
 
         <div className={styles.content}>
+          <img className={styles.headshot} src="/images/Headshot.jpeg" alt="Headshot" />
         <p>Welcome to my off portfolio website to showcase all work related to web development.</p>
-        <a className={styles.btn} href="#"> Download Resume </a>
+        <a className={styles.btn} href="#" target="_blank"> Download Resume </a>
         </div>
 
         <div className={styles.link_btn} >
-        <Link href="https://github.com/K-Tech19" target="_blank">
+        <Link href="https://github.com/K-Tech19">
                <a target="_blank"> <FaGithubSquare></FaGithubSquare> </a>
-           </Link>
+         </Link>
 
 
            <Link href="https://www.linkedin.com/in/kennyjean19/">

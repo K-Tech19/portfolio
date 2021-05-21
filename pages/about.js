@@ -1,13 +1,15 @@
 import Link from 'next/Link'
 import Header from '@/components/Header'
+import styles from '@/styles/About.module.css'
 
 export default function AboutPage() {
     return (
-        <div>
+        <div className={styles.main}>
             <Header/>
 
-            <h2>About</h2>
-            <p>Hello, my name is Kenny and I am a full-stack developer who enjoys solving tough problems and breaking them down into easily programmable solutions. My previous job was in banking where I spent the last 5 years building trust with my clients and furthering my communication skills, which I am confident I can bring to any role.</p>
+            <h2> About Me </h2>
+            <img className={styles.headshot} src="/images/Headshot.jpeg" alt="Headshot" />
+            <p>Hello, my name is Kenny Jean and I am a full-stack developer who enjoys solving tough problems and breaking them down into easily programmable solutions. My previous job was in banking where I spent the last 5 years building trust with my clients and furthering my communication skills, which I am confident I can bring to any role.</p>
 
             <p>In my past experiences, I was always tasked with helping different clients create new passwords for their accounts. Moreover, I assisted them with getting connected to the in-store WiFi to gain access to their personal records online. With the new skills that I now have, I am able to help small businesses launch their new React single-page company website. Also, I have the ability to persuade clients to update their SEO settings so they can receive more Google searches.</p>
 

@@ -9,7 +9,7 @@ export default function Header() {
             <div className={styles.logo}>
 
                 <Link href='/'>
-                    <a> K-Tech </a>
+                    <a> KT </a>
                 </Link>
             </div>
 
