@@ -1,0 +1,7 @@
+ .welcome {
+     display: flex;
+     justify-content: flex-start;
+    padding: 100px;
+    padding-left: 150px;
+    margin-right: 210px;
+  }
